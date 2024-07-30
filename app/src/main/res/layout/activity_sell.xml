@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img_1">
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a Líneas MARC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/trip_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:textSize="18sp"
+        android:textColor="#1B1A1A"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/origin_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/origin_prompt" />
+
+    <Spinner
+        android:id="@+id/destination_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/destination_prompt" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha"
+        android:clickable="true"
+        android:focusable="false"
+        android:padding="16dp"
+        android:background="@drawable/edittext_background"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora"
+        android:clickable="true"
+        android:focusable="false"
+        android:padding="16dp"
+        android:background="@drawable/edittext_background"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: $0.00"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+</LinearLayout>
+

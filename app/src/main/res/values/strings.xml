@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TruckService</string>
+    <string name="origin_prompt">Selecciona el Origen</string>
+    <string name="destination_prompt">Selecciona el Destino</string>
+    <string-array name="cities_array">
+        <item>Origen1</item>
+        <item>Origen2</item>
+        <item>Origen3</item>
+        <item>Origen4</item>
+        <item>Origen5</item>
+        <item>Destino1</item>
+        <item>Destino2</item>
+        <item>Destino3</item>
+        <item>Destino4</item>
+        <item>Destino5</item>
+    </string-array>
+    <string name="update_button_text">Actualizar</string>
+    <string name="back_button_text">Regresar</string>
+    <string name="date_hint">Fecha</string>
+    <string name="logo_desc">Logo de la aplicación</string>
+
+</resources>
